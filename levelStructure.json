@@ -39,7 +39,7 @@
 				}
 			}
 		}
-	}
+	},
 	"obj1":{
 		"prefab_name":"cube",
 		"pretty_name":"A floor cube",
