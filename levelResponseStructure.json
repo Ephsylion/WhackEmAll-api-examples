@@ -1,0 +1,22 @@
+{
+	"name":"lvl_list",
+	"sorted":"all",
+	"levels":{
+		"lvl0":{
+			"id":0,
+			"name":"Test API Level",
+			"author":"RustyTheCodeguy",
+			"description":"This level is not exsist. Created for API test",
+			"link":null,
+			"playable":false		
+		},
+		"lvl1"{
+			"id":1,			
+			"name":"Test Gameplay Level",
+			"author":"RustyTheCodeguy",
+			"description":"This level is exsist. Created for API test. Contains a flat world with some objects and finish line",
+			"link":"/levels/load?id=lvl1",
+			"playable":true		
+		}
+	}
+}
