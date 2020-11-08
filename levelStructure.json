@@ -2,8 +2,8 @@
 	"obj0":{
 		"prefab_name":"testcube",
 		"pretty_name":"Another Cube",
-		"type":null, //null = not gameplay stuff
-		"transform":{	//always should be, never equals NULL
+		"type":null,
+		"transform":{
 			"position":{  
 				"x":0,
 				"y":2,
@@ -44,7 +44,7 @@
 		"prefab_name":"cube",
 		"pretty_name":"A floor cube",
 		"type":null,
-		"transform":{	//always should be, never equals NULL
+		"transform":{
 			"position":{
 				"x":0,
 				"y":-10,
@@ -63,15 +63,15 @@
 		}
 		"properties:{
 			"haveChild":false,			
-			"rigidbodySettings":null,//null = nothing to change
-			"scriptProperties":null //null = nothing to change
+			"rigidbodySettings":null,
+			"scriptProperties":null
 		}
 	}
 	"obj2":{
 		"prefab_name":"winPortal",
 		"pretty_name":"Win portal",
-		"type":"win",	//It's a win portal (required, if does not exsist, level won't run)
-		"transform":{	//always should be, never equals NULL
+		"type":"win",
+		"transform":{	
 			"position":{
 				"x":10,
 				"y":1,
@@ -90,13 +90,13 @@
 		}
 		"properties:{
 			"haveChild":false,			
-			"rigidbodySettings":null,//null = nothing to change
-			"scriptProperties":null //null = nothing to change
+			"rigidbodySettings":null,
+			"scriptProperties":null
 		}
 	}
 	"obj3":{
 		"prefab_name":"playerBody",
-		"pretty_name":"Player", //It's a Player (required, if does not exsist, level won't run)
+		"pretty_name":"Player",
 		"type":"Player",
 		"transform":{
 			"position":{
@@ -114,16 +114,16 @@
 				"y":1.75,
 				"z":1
 			},
-		}
+		},
 		"properties:{
 			"haveChild":true,			
-			"rigidbodySettings":null,//null = nothing to change
-			"scriptProperties":null //null = nothing to change
-		}
+			"rigidbodySettings":null,
+			"scriptProperties":null
+		},
 		"childrenObj":{
 				"obj3_1":{
 						"prefab_name":"playerCamera",
-						"pretty_name":"Player Camera", //It's a Player Camera (required, if does not exsist, level won't run)
+						"pretty_name":"Player Camera",
 						"type":"MainCamera",
 						"transform":{
 							"position":{
@@ -140,8 +140,8 @@
 								"x":1,
 								"y":1,
 								"z":1
-							},
-						}
+							}
+						},
 						"properties:{
 							"haveChild":false,			
 							"rigidbodySettings":null,//null = nothing to change
