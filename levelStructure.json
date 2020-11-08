@@ -20,7 +20,7 @@
 				"z":1
 			}
 		},
-		"properties:{
+		"properties":{
 			"haveChild":false,			
 			"rigidbodySettings":{
 				"pretty_name":"Object Physics settings",
@@ -144,8 +144,8 @@
 						},
 						"properties:{
 							"haveChild":false,			
-							"rigidbodySettings":null,//null = nothing to change
-							"scriptProperties":null //null = nothing to change
+							"rigidbodySettings":null,
+							"scriptProperties":null
 						}
 					}
 		}
